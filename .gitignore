@@ -1,0 +1,31 @@
+# Release binary archives (hosted on GitHub Releases, never tracked in Git tree)
+**/*.zip
+**/*.tar.gz
+**/*.tgz
+**/*.7z
+
+# Unpacked binary directories (only markdown docs and checksums are tracked)
+**/win/
+**/linux/
+**/win-x64/
+**/linux-x64/
+
+# Whitelist markdown documentation, checksums, and metadata
+!**/*.md
+!**/SHA256SUMS.txt
+!**/checksums.sha256
+!**/LICENSE
+
+# IDE / Build Artifacts
+.vs/
+.idea/
+bin/
+obj/
+*.user
+*.suo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+dist/

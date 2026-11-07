@@ -1,0 +1,2 @@
+﻿2af712d416bccebbd14a9ad3470ebdaf2d1ad3e24c6ddda2ddde9c3ff483bd24  am-v1.0.2-win-x64.zip
+5db57c51c3ee41205279acfe5bdadd1259bfec3c3e2b4c4def82370f1656b451  am-v1.0.2-linux-x64.zip
