@@ -148,9 +148,7 @@ jobs:
           fi
           
           # Stage installer script if available
-          if [ -f "scripts/install-am.sh" ] && [ ! -f "dist/linux/install-am.sh" ]; then
-            cp "scripts/install-am.sh" dist/linux/
-          elif [ -f "V-${CLEAN_VER}/linux/install-am.sh" ] && [ ! -f "dist/linux/install-am.sh" ]; then
+          if [ -f "V-${CLEAN_VER}/linux/install-am.sh" ] && [ ! -f "dist/linux/install-am.sh" ]; then
             cp "V-${CLEAN_VER}/linux/install-am.sh" dist/linux/
           fi
 
